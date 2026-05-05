@@ -1,6 +1,6 @@
 remote_theme: daattali/beautiful-jekyll@6.0.1
 title: My website
-author: Ferran Aran
+author: Qiao Yuxi
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -18,7 +18,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/images/ferran.jpeg"
+avatar: "/images/Coco.jpg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -36,12 +36,13 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "ferran@ferranaran.com"
-  facebook: ferranad
-  github: ferranad
-  twitter: ferranad
-  youtube: "@ferranad"
-  linkedin: ferranaran
+  email: "qiaoyx3170@gmail.com"
+  github: qiaoyx3170
+  linkedin: qiaoyx
+  whatsapp: "34663795252"
+#  youtube: "@ferranad"
+#  twitter: ferranad
+#  facebook: ferranad
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -70,8 +71,9 @@ social-network-links:
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
+  twitter: false
+  facebook: false
+  email: true
   linkedin: true
   vk: false
 
