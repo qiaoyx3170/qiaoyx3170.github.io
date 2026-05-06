@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Sample blog post to learn markdown tips
-subtitle: There's lots to learn!
+title: HealthCloud: Intelligent Heart Disease Monitoring with Machine Learning
+subtitle: A cloud-based system for predicting and monitoring heart disease using machine learning.
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [test]
