@@ -74,6 +74,7 @@ Classification metrics are used to evaluate how well the models perform on class
 
 
 ### Ensemble Learning
+
 Ensemble Learning is used to examine whether combining models (via bagging) could improve prediction performance. The results show that ensemble learning did not significantly improve performance and, in some cases, even reduced accuracy or increased latency：
 
 <br>
@@ -89,6 +90,7 @@ Ensemble Learning is used to examine whether combining models (via bagging) coul
 QoS parameters are used to evaluate the system from a practical deployment perspective. In this study, the QoS metrics are evaluated in terms of **Time** and **Memory usage**, where Time includes both execution time and latency. The results are shown as follows:
 
 **Execution time & Latency**:
+
 <img src="https://ars.els-cdn.com/content/image/1-s2.0-S2542660521001244-gr12_lrg.jpg" width="500">
 
 <br>
@@ -103,93 +105,6 @@ QoS parameters are used to evaluate the system from a practical deployment persp
 
 ## Implementation and Performance of the iOS Application
 
-The **Logistic Regression** model was selected as the final algorithm, and is implemented in an iOS application using Apple’s CreateML and Xcode. The model was retrained with the target variable separated from the input features and achieved an accuracy of 84%, a precision of 86%, and a recall of 84% on the test dataset.
+The **Logistic Regression** model was selected as the final algorithm. It was implemented in an iOS application using Apple’s CreateML and Xcode. 
 
-
-
-
-
-
-
-
-
-**Here is some bold text**
-
-## Here is a secondary heading
-
-[This is a link to a different site](https://deanattali.com/) and [this is a link to a section inside this page](#local-urls).
-
-Here's a table:
-
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
-
-You can use [MathJax](https://www.mathjax.org/) to write LaTeX expressions. For example:
-When \\(a \ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
-
-How about a yummy crepe?
-
-![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg)
-
-It can also be centered!
-
-![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg){: .mx-auto.d-block :}
-
-Here's a code chunk:
-
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
-
-And here is the same code with syntax highlighting:
-
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
-
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
-
-## Local URLs in project sites {#local-urls}
-
-When hosting a *project site* on GitHub Pages (for example, `https://USERNAME.github.io/MyProject`), URLs that begin with `/` and refer to local files may not work correctly due to how the root URL (`/`) is interpreted by GitHub Pages. You can read more about it [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). To demonstrate the issue, the following local image will be broken **if your site is a project site:**
-
-![Crepe](/assets/img/crepe.jpg)
-
-If the above image is broken, then you'll need to follow the instructions [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). Here is proof that it can be fixed:
-
-![Crepe]({{ '/assets/img/crepe.jpg' | relative_url }})
+The model was retrained with the target variable separated from the input features. It achieved an accuracy of 84%, a precision of 86%, and a recall of 84% on the test dataset.
