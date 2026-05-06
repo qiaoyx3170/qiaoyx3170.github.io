@@ -51,9 +51,10 @@ Five machine learning algorithms were selected and evaluated for heart disease p
 
 The performance of the system was evaluated using multiple methods, including standard classification metrics, cross-validation techniques, and Quality of Service (QoS) parameters, to assess both predictive performance and system efficiency.
 
+
 ### Classification Metrics
 
-Classification metrics are used to evaluate how well the models perform on classification task. The metrics used are accuracy, precision, recall (sensitivity), specificity, confusion matrix, and ROC-AUC. The results are shown as follows:
+Classification metrics are used to evaluate how well the models perform on classification task. The metrics used are accuracy, precision, recall (sensitivity), specificity, confusion matrix, ROC-AUC, and 5-fold Cross-validation. The results are shown as follows:
 
 |  | Accuracy | Precision | Sensitivity | Specificity | 
 | :------ |:--- | :--- | :--- | :--- |
@@ -71,6 +72,15 @@ Classification metrics are used to evaluate how well the models perform on class
 
 <img src="https://ars.els-cdn.com/content/image/1-s2.0-S2542660521001244-gr9_lrg.jpg" width="500">
 
+
+### Ensemble Learning
+Ensemble Learning is used to examine whether combining models (via bagging) could improve prediction performance. The results show that ensemble learning did not significantly improve performance and, in some cases, even reduced accuracy or increased latency：
+
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2542660521001244-gr10_lrg.jpg" width="500">
+
+<br>
+
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2542660521001244-gr11_lrg.jpg" width="500">
 
 ### Quality of Service (QoS)
 
