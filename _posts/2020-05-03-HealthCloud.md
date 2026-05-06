@@ -53,6 +53,8 @@ The performance of the system was evaluated using multiple methods, including st
 
 ### Classification Metrics
 
+Classification metrics are used to evaluate how well the models perform on classification task. The metrics used are accuracy, precision, recall (sensitivity), specificity, confusion matrix, and ROC-AUC. The results are shown as follows:
+
 |  | Accuracy | Precision | Sensitivity | Specificity | 
 | :------ |:--- | :--- | :--- | :--- |
 | **SVC** | 0.8421 | 0.9565 | 0.733 | 0.963 |
@@ -61,8 +63,8 @@ The performance of the system was evaluated using multiple methods, including st
 | **LR** | 0.8596 | 0.9583 | 0.767 | 0.963 |
 | **GBT** | 0.807 | 0.9524 | 0.667 | 0.963 |
 
-
-ROC figure
+![ROC figure](https://ars.els-cdn.com/content/image/1-s2.0-S2542660521001244-gr8_lrg.jpg)
+ 
 
 ### Confusion Matrix 
 
