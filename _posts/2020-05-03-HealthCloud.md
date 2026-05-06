@@ -15,6 +15,45 @@ To address this issue, a system called [*HealthCloud*](https://github.com/iamssg
 
 
 
+## HealthCloud system
+
+The system is based on a mobile health prediction framework that integrates a CoreML-powered machine learning model to estimate the risk of heart disease. It is implemented as an iOS application and follows the Model–View–Controller (MVC) architecture to clearly separate the user interface, control logic, and data processing components.
+
+In the app, users manually input relevant clinical features such as blood test results and ECG measurements. Then, these inputs are processed by the embedded model, which generates a prediction of whether the user may be at risk of heart disease. 
+
+The result is immediately displayed on the screen along with basic advice.
+
+![Interface](https://ars.els-cdn.com/content/image/1-s2.0-S2542660521001244-gr1_lrg.jpg)
+
+
+
+
+
+## Data Source
+
+
+
+## Machine-learning Algorithms
+
+
+
+
+## System Perfrmance
+
+
+
+
+
+## 
+
+
+
+
+
+
+
+
+
 **Here is some bold text**
 
 ## Here is a secondary heading
