@@ -24,12 +24,11 @@ In the app, users manually input relevant clinical features such as blood test r
 The result is immediately displayed on the screen along with basic advice.
 
 ![Interface](https://ars.els-cdn.com/content/image/1-s2.0-S2542660521001244-gr1_lrg.jpg)
-
-
-
+** User Iterface and prediction of the HealthCloud system.**
 
 
 ## Data Source
+
 
 
 
