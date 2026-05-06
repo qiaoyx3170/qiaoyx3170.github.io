@@ -86,6 +86,28 @@ Ensemble Learning is used to examine whether combining models (via bagging) coul
 
 ### Quality of Service (QoS)
 
+QoS parameters are used to evaluate the system from a practical deployment perspective. In this study, the QoS metrics are evaluated in terms of **Time** and **Memory usage**, where Time includes both execution time and latency. The results are shown as follows:
+
+**Execution time & Latency**:
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2542660521001244-gr12_lrg.jpg" width="500">
+
+<br>
+
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2542660521001244-gr13_lrg.jpg" width="500">
+
+**Memory usage**:
+
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2542660521001244-gr14_lrg.jpg" width="500">
+
+
+
+## Implementation and Performance of the iOS Application
+
+The **Logistic Regression** model was selected as the final algorithm, and is implemented in an iOS application using Apple’s CreateML and Xcode. The model was retrained with the target variable separated from the input features and achieved an accuracy of 84%, a precision of 86%, and a recall of 84% on the test dataset.
+
+
+
+
 
 
 
