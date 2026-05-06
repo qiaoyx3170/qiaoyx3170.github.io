@@ -67,11 +67,9 @@ Classification metrics are used to evaluate how well the models perform on class
 
 <img src="https://ars.els-cdn.com/content/image/1-s2.0-S2542660521001244-gr8_lrg.jpg" width="500">
 
+<br>
 
-### Confusion Matrix 
-
-
-### Cross-Validation
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2542660521001244-gr9_lrg.jpg" width="500">
 
 
 ### Quality of Service (QoS)
