@@ -34,8 +34,7 @@ Before analysis, the data was properly pre-processed, including cleaning missing
 
 ## Machine-learning Algorithms
 
-Five machine learning algorithms were selected and evaluated for heart disease prediction: Support Vector Classifier (SVC), K-Nearest Neighbours (KNN), 
-Neural Networks (NN), Logistic Regression (LR), and Gradient Boosting Trees (GB).
+Five machine learning algorithms were selected and evaluated for heart disease prediction:
 
 **Support Vector Classifier (SVC):** SVC is a margin-based classifier that finds an optimal hyperplane to separate patients with and without heart disease, making it effective for high-dimensional and unseen data. 
 
@@ -45,20 +44,33 @@ Neural Networks (NN), Logistic Regression (LR), and Gradient Boosting Trees (GB)
 
 **Logistic Regression (LR):** Logistic Regression provides a probabilistic linear approach using a sigmoid function to estimate disease risk.
 
-**Gradient Boosting Trees (GB):** Gradient Boosting Trees is an ensemble method that builds multiple decision trees sequentially, where each tree improves the performance of the previous one, making it particularly effective for reducing bias and handling complex patterns in medical data.
-
+**Gradient Boosting Trees (GBT):** Gradient Boosting Trees is an ensemble method that builds multiple decision trees sequentially, where each tree improves the performance of the previous one, making it particularly effective for reducing bias and handling complex patterns in medical data.
 
 
 ## System Perfrmance
 
+The performance of the system was evaluated using multiple methods, including standard classification metrics, cross-validation techniques, and Quality of Service (QoS) parameters, to assess both predictive performance and system efficiency.
+
+### Classification Metrics
+
+|  | Accuracy | Precision | Sensitivity | Specificity | 
+| :------ |:--- | :--- | :--- | :--- |
+| SVC | 0.8421 | 0.9565 | 0.733 | 0.963 |
+| KNN | 0.5965 | 0.6667 | 0.467 | 0.741 |
+| NN |  0.8421 | 0.92 | 0.767 | 0.926 |
+| LR | 0.8596 | 0.9583 | 0.767 | 0.963 |
+| GBT | 0.807 | 0.9524 | 0.667 | 0.963 |
 
 
+ROC figure
+
+### Confusion Matrix 
 
 
-## 
+### Cross-Validation
 
 
-
+### Quality of Service (QoS)
 
 
 
