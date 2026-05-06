@@ -9,11 +9,7 @@ author: Yuxi
 ---
 
 {: .box-success}
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/tables/etc.<br/>I also encourage you to look at the [code that created this post](https://raw.githubusercontent.com/daattali/beautiful-jekyll/master/_posts/2020-02-28-sample-markdown.md) to learn some more advanced tips about using markdown in Beautiful Jekyll.
-
-With the increasing amount of online information and the development of digital technologies, people have started to rely on internet-based tools for self-diagnosis, especially after the global health crisis in 2020. However, many existing approaches—such as searching symptoms online or reading medical blogs—can often lead to misunderstanding and inaccurate conclusions.
-
-To address this issue, a system called *HealthCloud* was developed to monitor the health status of heart patients using machine learning and cloud computing. The system aims to provide more reliable and data-driven predictions compared to traditional self-diagnosis methods.
+With the increasing amount of online information and the development of digital technologies, people have started to rely on internet-based tools for self-diagnosis, especially after the global health crisis in 2020. However, many existing approaches—such as searching symptoms online or reading medical blogs—can often lead to misunderstanding and inaccurate conclusions. To address this issue, a system called *HealthCloud* was developed to monitor the health status of heart patients using machine learning and cloud computing. The system aims to provide more reliable and data-driven predictions compared to traditional self-diagnosis methods.
 
 
 
