@@ -89,7 +89,7 @@ Ensemble Learning is used to examine whether combining models (via bagging) coul
 
 QoS parameters are used to evaluate the system from a practical deployment perspective. In this study, the QoS metrics are evaluated in terms of **Time** and **Memory usage**, where Time includes both execution time and latency. The results are shown as follows:
 
-**Execution time & Latency**:
+**Execution time & Latency**: 
 
 <img src="https://ars.els-cdn.com/content/image/1-s2.0-S2542660521001244-gr12_lrg.jpg" width="500">
 
