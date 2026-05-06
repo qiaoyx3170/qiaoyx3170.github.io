@@ -76,6 +76,8 @@ Classification metrics are used to evaluate how well the models perform on class
 ### Ensemble Learning
 Ensemble Learning is used to examine whether combining models (via bagging) could improve prediction performance. The results show that ensemble learning did not significantly improve performance and, in some cases, even reduced accuracy or increased latency：
 
+<br>
+
 <img src="https://ars.els-cdn.com/content/image/1-s2.0-S2542660521001244-gr10_lrg.jpg" width="500">
 
 <br>
