@@ -8,7 +8,6 @@ mathjax: true
 author: Yuxi
 ---
 
-{: .box-success}
 With the increasing amount of online information and the development of digital technologies, people have started to rely on internet-based tools for self-diagnosis, especially after the global health crisis in 2020. However, many existing approaches—such as searching symptoms online or reading medical blogs—can often lead to misunderstanding and inaccurate conclusions. To address this issue, a system called *HealthCloud* was developed to monitor the health status of heart patients using machine learning and cloud computing. The system aims to provide more reliable and data-driven predictions compared to traditional self-diagnosis methods.
 
 
