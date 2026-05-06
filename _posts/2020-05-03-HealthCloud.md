@@ -65,9 +65,8 @@ Classification metrics are used to evaluate how well the models perform on class
 
 <br>
 
-![ROC figure](https://ars.els-cdn.com/content/image/1-s2.0-S2542660521001244-gr8.jpg)
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2542660521001244-gr8_lrg.jpg" width="500">
 
- 
 
 ### Confusion Matrix 
 
