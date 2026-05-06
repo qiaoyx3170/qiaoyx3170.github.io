@@ -54,7 +54,7 @@ The performance of the system was evaluated using multiple methods, including st
 
 ### Classification Metrics
 
-Classification metrics are used to evaluate how well the models perform on classification task. The metrics used are accuracy, precision, recall (sensitivity), specificity, confusion matrix, ROC-AUC, and 5-fold Cross-validation. The results are shown as follows:
+Classification metrics are used to evaluate how well the models perform on classification task. The metrics used are **Accuracy**, **Precision**, **Recall (Sensitivity)**, **Specificity**, **Confusion Matrix**, **ROC-AUC**, and **5-fold Cross-validation**. The results are shown as follows:
 
 |  | Accuracy | Precision | Sensitivity | Specificity | 
 | :------ |:--- | :--- | :--- | :--- |
