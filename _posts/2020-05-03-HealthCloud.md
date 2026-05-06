@@ -64,7 +64,7 @@ Classification metrics are used to evaluate how well the models perform on class
 | **GBT** | 0.807 | 0.9524 | 0.667 | 0.963 |
 
 
-![ROC figure](https://ars.els-cdn.com/content/image/1-s2.0-S2542660521001244-gr8_lrg.jpg)
+![ROC figure](https://ars.els-cdn.com/content/image/1-s2.0-S2542660521001244-gr8.jpg)
  
 
 ### Confusion Matrix 
