@@ -4,7 +4,7 @@ title: HealthCloud: Intelligent Heart Disease Monitoring with Machine Learning
 subtitle: A cloud-based system for predicting and monitoring heart disease using machine learning.
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
-tags: [test]
+tags: [Cloud-Computing, AI-Healthcare]
 comments: true
 mathjax: true
 author: Bill Smith
