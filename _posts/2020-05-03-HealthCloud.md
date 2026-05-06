@@ -24,16 +24,28 @@ In the app, users manually input relevant clinical features such as blood test r
 The result is immediately displayed on the screen along with basic advice.
 
 ![Interface](https://ars.els-cdn.com/content/image/1-s2.0-S2542660521001244-gr1_lrg.jpg)
-** User Iterface and prediction of the HealthCloud system.**
 
 
 ## Data Source
 
+The dataset used in this study is the [*Cleveland Heart Disease dataset*](https://archive.ics.uci.edu/dataset/45/heart+disease) from the UCI Machine Learning Repository. It contains 303 patient records collected from the Cleveland Clinic Foundation and has been widely used in medical machine learning research.
 
-
+Before analysis, the data was properly pre-processed, including cleaning missing or inconsistent values, adjusting encoded variables to match the dataset documentation, and reorganising the data into a suitable format for machine learning. After preprocessing, the dataset was reduced to 284 usable instances and split into training and test sets for model development and evaluation.
 
 ## Machine-learning Algorithms
 
+Five machine learning algorithms were selected and evaluated for heart disease prediction: Support Vector Classifier (SVC), K-Nearest Neighbours (KNN), 
+Neural Networks (NN), Logistic Regression (LR), and Gradient Boosting Trees (GB).
+
+**Support Vector Classifier (SVC):** SVC is a margin-based classifier that finds an optimal hyperplane to separate patients with and without heart disease, making it effective for high-dimensional and unseen data. 
+
+**K-Nearest Neighbours (KNN):** KNN classifies a patient based on the most similar cases in the dataset, using distance-based similarity measures. 
+
+**Neural Networks (NN):** The Neural Network model uses a multi-layer perceptron structure with non-linear activation functions to capture complex relationships between features and the target variable. 
+
+**Logistic Regression (LR):** Logistic Regression provides a probabilistic linear approach using a sigmoid function to estimate disease risk.
+
+**Gradient Boosting Trees (GB):** Gradient Boosting Trees is an ensemble method that builds multiple decision trees sequentially, where each tree improves the performance of the previous one, making it particularly effective for reducing bias and handling complex patterns in medical data.
 
 
 
